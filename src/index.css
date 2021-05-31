@@ -1,13 +1,145 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+form {
+  border-radius: 50px;
+  display: block;
+  margin: 16px auto;
+  max-width: max-content;
+}
+
+h1,
+h2,
+h3,
+h5,
+footer,
+p,
+.currentTemperature {
+  text-align: center;
+}
+
+h1 {
+  font-size: 21px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 {
+  font-size: 15px;
+  margin-top: 8px;
+  margin-left: 0;
+}
+
+h4 {
+  color: #fff;
+  font-size: 21px;
+  margin-left: 4px;
+  text-shadow: 0px 0px 4px black;
+}
+
+h5 {
+  font-size: 14px;
+  margin: 0;
+}
+
+p {
+  font-size: 12px;
+  margin: 4px 0;
+}
+
+footer {
+  color: #fff;
+  font-size: 12px;
+}
+
+a {
+  color: rgb(247, 92, 208);
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+html {
+  font-size: 100%;
+}
+
+@media (min-width: 640px) {
+  body {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 960px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+.container {
+  background-image: url(J-lion.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  max-width: 480px;
+  margin: 30px auto;
+  max-height: 800px;
+  min-height: 800px;
+  padding: 0;
+}
+
+#city-input,
+#submitCity {
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+.currentWeather {
+  margin: 36px 10px;
+}
+
+.currentTemperature {
+  font-size: 48px;
+  font-weight: bold;
+  position: relative;
+  bottom: 16px;
+  left: 32px;
+}
+
+.unit-Choice {
+  padding-right: 8px;
+}
+
+section div #current-weather-icon {
+  font-size: 88px;
+}
+
+.forecast {
+  margin: 200px 8px 20px 8px;
+}
+
+.card-body {
+  padding: 12px 6px;
+}
+.forecastIcons {
+  font-size: 20px;
+  margin-top: 8px;
+  position: relative;
+  left: 18px;
+}
+
+.nextDaysForecast {
+  margin-top: 32px;
 }
