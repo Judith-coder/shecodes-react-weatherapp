@@ -14,7 +14,7 @@ export default function CurrentWeather() {
       </form>
 
       <h1 id="city-heading">Bordeaux</h1>
-      <h2 id="date-hour" />
+      <h2 id="date-hour">Today it is...</h2>
       <section className="currentWeather">
         <div className="row">
           <div className="col-4">
