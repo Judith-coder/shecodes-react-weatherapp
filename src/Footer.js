@@ -13,7 +13,7 @@ export default function Footer() {
       </a>
       , open-sourced on
       <a
-        href="https://github.com/Judith-coder/sheCodes-weatherApp"
+        href="https://github.com/Judith-coder/shecodes-react-weatherapp"
         target="_blank"
         rel="noreferrer"
       >
